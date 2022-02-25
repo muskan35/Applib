@@ -1,0 +1,65 @@
+.headingone{
+    background-color: #F5CBA7;
+    padding: 20px;
+    text-align: center;
+    background-image: url("./logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+}
+
+.dropdown{
+    background-color: #FCF3CF;
+    text-align: left;
+    padding: 20px;
+    margin: 5px;
+    font-size: 20px;
+}
+.dropbtn {
+    background-color: #EC7063;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #F1948A;}
+
+div.polaroid {
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    padding: 10px;
+    display: inline-block;
+}
+  
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.pictures{
+    display: flex;
+    margin: auto;
+    width: 1050px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
