@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./menustyle.css">
+    <script src="./menu.js"></script>
     <title>Menu Page</title>
 </head>
 <body>
@@ -23,41 +24,84 @@
     </div>
     <div class="pictures">
         <div class="polaroid">
-            <img src="./chapati.jpg" alt="roti" style="width:100%">
+            <img src="./chapati.jpg" alt="roti" style="width:100%" class="shop-item-image">
             <div class="container">
-            <p>Tawa Chapati: Rs 20</p>
+            <p class="shop-item-title">Tawa Chapati</p>
+            <p class="shop-item-price"> Rs 20</p>
+            <button class="btn btn-primary shop-item-button" type="button">Add to Cart</button>
+            <button class="btn btn-primary wishlist-item-button" type="button">Add to Wishlist</button>
             </div>
         </div>
         <div class="polaroid">
-            <img src="./dal.jpg" alt="dal" style="width:100%">
+            <img src="./dal.jpg" alt="dal" style="width:100%" class="shop-item-image">
             <div class="container">
-            <p>Dal Fry: Rs 110</p>
+            <p class="shop-item-title">Dal Fry</p>
+            <p class="shop-item-price"> Rs 110</p>
+            <button class="btn btn-primary shop-item-button" type="button">Add to Cart</button>
+            <button class="btn btn-primary wishlist-item-button" type="button">Add to Wishlist</button>
             </div>
         </div>
         <div class="polaroid">
-            <img src="./paneer.jpg" alt="paneer" style="width:100%">
+            <img src="./paneer.jpg" alt="paneer" style="width:100%" class="shop-item-image">
             <div class="container">
-            <p>Paneer Tikka: Rs 150</p>
+            <p class="shop-item-title">Paneer Tikka</p>
+            <p class="shop-item-price"> Rs 150</p>
+            <button class="btn btn-primary shop-item-button" type="button">Add to Cart</button>
+            <button class="btn btn-primary wishlist-item-button" type="button">Add to Wishlist</button>
             </div>
         </div>
         <div class="polaroid">
-            <img src="./pulao.jpg" alt="pulao" style="width:100%">
+            <img src="./pulao.jpg" alt="pulao" style="width:100%" class="shop-item-image">
             <div class="container">
-            <p>Pulao: Rs 85</p>
+            <p class="shop-item-title">Pulao</p>
+            <p class="shop-item-price"> Rs 85</p>
+            <button class="btn btn-primary shop-item-button" type="button">Add to Cart</button>
+            <button class="btn btn-primary wishlist-item-button" type="button">Add to Wishlist</button>
             </div>
         </div>
         <div class="polaroid">
-            <img src="./chola.jpg" alt="chola" style="width:100%">
+            <img src="./chola.jpg" alt="chola" style="width:100%" class="shop-item-image">
             <div class="container">
-            <p>Chola Bhatura: Rs 95</p>
+            <p class="shop-item-title">Chola Bhatura</p>
+            <p class="shop-item-price"> Rs 95</p>
+            <button class="btn btn-primary shop-item-button" type="button">Add to Cart</button>
+            <button class="btn btn-primary wishlist-item-button" type="button">Add to Wishlist</button>
             </div>
         </div>
         <div class="polaroid">
-            <img src="./pavbhaji.jpg" alt="paw" style="width:100%">
+            <img src="./pavbhaji.jpg" alt="paw" style="width:100%" class="shop-item-image">
             <div class="container">
-            <p>Paw Bhaji: Rs 55</p>
+            <p class="shop-item-title">Paw Bhaji</p>
+            <p class="shop-item-price"> Rs 55</p>
+            <button class="btn btn-primary shop-item-button" type="button">Add to Cart</button>
+            <button class="btn btn-primary wishlist-item-button" type="button">Add to Wishlist</button>
             </div>
         </div>
     </div>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price"> Rs 0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">WISHLIST</h2>
+        <div class="wish-row">
+            <span class="wish-item wish-header wish-column">ITEM</span>
+            <span class="wish-price wish-header wish-column">PRICE</span>
+            <span class="wish-quantity wish-header wish-column">QUANTITY</span>
+        </div>
+        <div class="wish-items">
+        </div>
+    </section>
 </body>
 </html>
